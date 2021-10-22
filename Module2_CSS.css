@@ -1,0 +1,80 @@
+@media screen and (min-width:1200px) {
+    .beef {
+        width: 100%;
+    }
+    .chicken {
+        width: 100%;
+    }
+    .pork {
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1199px) {
+    div .beef, .chicken{
+        margin: 10px;
+        width: 45%;
+        padding: 10px;
+        object-fit: auto;
+        
+    }
+    div .pork {
+        width: fit-content;
+    }
+}
+@media screen and (min-width:480px) and (max-width:767px) {
+    div .beef, .chicken, .pork{
+        width: fit-content;
+    }
+}
+@media screen and (max-width:479px) {
+    div {
+        width: auto;
+    }
+}
+div {
+    margin: 20px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+body {
+    background-color: rgb(49, 151, 151);
+}
+
+.beef {
+    background-color: rgb(132, 120, 202);
+    border: 2px solid black;
+    width: 300px;
+    height: 450px;
+    float: left;
+}
+.chicken {
+    background-color: rgb(240, 240, 144);
+    border: 2px solid black;
+    width:300px;
+    height: 450px;
+    float: left;
+}
+.pork {
+    background-color: white;
+    border: 2px solid black;
+    width: 300px;
+    height: 450px;
+    float: left;
+}
+h4 {
+    background-color: rgb(221, 116, 116);
+    height:fit-content;
+    width:fit-content;
+    color: white;
+    border: 2px solid black;
+    position: relative;
+    left: 220px;
+    top: 10px;
+}
+.heading {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
